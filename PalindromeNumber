@@ -1,0 +1,17 @@
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function(x) {
+    console.log(typeof x)
+    let xString = x.toString()
+    let xArray = x.toString().split();
+    let xReverseArray = xArray.reverse();
+    let xReverse = xReverseArray.join()
+    
+    
+    
+    return (x === xReverse)
+};
+
+isPalindrome(121);

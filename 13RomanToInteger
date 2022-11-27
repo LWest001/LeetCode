@@ -3,9 +3,6 @@
  * @return {number}
  */
 
-
-// s = [I, I, I]
-
 var romanToInt = function (s) {
   s = s.split("");
   let result = 0;
